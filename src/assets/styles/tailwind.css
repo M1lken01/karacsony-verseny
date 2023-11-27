@@ -7,23 +7,31 @@
   --fg-200: #f9f9f9;
   --bg-100: #000000;
   --bg-200: #111111;
+  --bg-300: #1a1a1a;
+  --bg-400: #1f1f1f;
+  --ac-100: #3b82f6;
 }
 
 body {
   color: var(--fg-200);
-  background-color: var(--bg-200);
+  background-color: var(--bg-300);
 }
 
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
 }
 
+a {
+  @apply text-blue-500 hover:text-blue-600;
+}
+
 h1 {
   font-size: 2rem;
 }
 
+button,
 .button {
-  @apply px-4 py-2 text-white bg-blue-500 rounded-sm shadow-md hover:bg-blue-600 focus:outline-none focus:ring focus:border-blue-700;
+  @apply px-4 py-2 text-white bg-blue-500 rounded-sm shadow-md hover:bg-blue-600 hover:text-white focus:outline-none focus:ring focus:border-blue-700;
 }
 
 .input {
