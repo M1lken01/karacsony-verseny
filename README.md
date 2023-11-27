@@ -1,13 +1,38 @@
 # karacsony kupa
 
-## structure
+## Project setup
 
-- ./src | webpage source files
-- ./dist | build or output files
-- ./docs | documentation, media and presentation files
+```ps1
+npm install
+```
 
-## credits
+### Compiles and hot-reloads for development
 
-- m1lk3n01
-- McB0nd
-- Pingitzergggg
+```ps1
+npm run serve
+```
+
+### Compiles and minifies for production
+
+```ps1
+npm run build
+```
+
+### Lints and fixes files
+
+```ps1
+npm run lint
+```
+
+## Structure
+
+- `src/` webpage source files
+  - `assets/` resources, styles, scripts
+- `dist/` build or output files
+- `docs/` documentation, media and presentation files
+
+## Credits
+
+- [m1lk3n01](https://github.com/M1lken01)
+- [McB0nd](https://github.com/McB0nd)
+- [Pingitzergggg](https://github.com/Pingitzergggg)
