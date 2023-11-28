@@ -2,7 +2,6 @@
   <HeroSection />
   <GallerySection />
   <AboutSection />
-  <img alt="Vue logo" src="./assets/logo.png" />
   <FooterSection />
 </template>
 

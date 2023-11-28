@@ -4,7 +4,7 @@
       <div class="flex flex-col">
         <span class="font-bold">Navigation</span>
         <a class="p-1" href="#app">Intro</a>
-        <a class="p-1" href="#app">Content</a>
+        <a class="p-1" href="#gallery">Gallery</a>
         <a class="p-1" href="#about">About</a>
       </div>
       <div class="flex flex-col">
