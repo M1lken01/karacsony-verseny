@@ -1,32 +1,27 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
-:root {
-  --fg-100: #ffffff;
-  --fg-200: #f9f9f9;
-  --bg-100: #000000;
-  --bg-200: #111111;
-  --bg-300: #1a1a1a;
-  --bg-400: #1f1f1f;
-  --ac-100: #3b82f6;
+html {
+  scroll-behavior: smooth;
 }
 
 body {
-  color: var(--fg-200);
-  background-color: var(--bg-300);
+  @apply text-fg200 bg-bg400;
 }
 
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 a {
   @apply text-blue-500 hover:text-blue-600;
 }
 
-h1 {
-  font-size: 2rem;
+section {
+  min-height: 80vh;
+  min-height: 80dvh;
 }
 
 button,
