@@ -5,7 +5,7 @@
         <span class="font-bold">Navigation</span>
         <a class="p-1" href="#app">Intro</a>
         <a class="p-1" href="#app">Content</a>
-        <a class="p-1" href="#about">Intro</a>
+        <a class="p-1" href="#about">About</a>
       </div>
       <div class="flex flex-col">
         <span class="font-bold">Made with ❤️ by</span>
@@ -44,9 +44,9 @@ export default {
   data() {
     return {
       developers: [
-        { id: 1, nickname: 'm1lk3n01', fullName: 'Artner Milan', link: '#', hover: false },
-        { id: 2, nickname: 'McBond', fullName: 'Csendes Tamas', link: '#', hover: false },
-        { id: 3, nickname: 'p_gggg', fullName: 'Pingtizer David', link: '#', hover: false },
+        { id: 1, nickname: 'm1lk3n01', fullName: 'Artner Milan', link: 'https://github.com/M1lken01', hover: false },
+        { id: 2, nickname: 'McB0nd', fullName: 'Csendes Tamas', link: 'https://github.com/McB0nd', hover: false },
+        { id: 3, nickname: 'Pingitzergggg', fullName: 'Pingtizer David', link: 'https://github.com/Pingitzergggg', hover: false },
       ],
     };
   },
