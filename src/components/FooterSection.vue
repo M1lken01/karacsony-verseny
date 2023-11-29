@@ -1,13 +1,17 @@
 <template>
   <footer class="text-center pt-24 pb-4 bg-bg300 text-white">
-    <div class="flex justify-center gap-8 flex-col md:flex-row">
+    <div class="flex justify-center gap-8 flex-col">
       <div class="flex flex-col">
         <span class="font-bold">Navigation</span>
-        <a class="p-1" href="#app">Intro</a>
-        <a class="p-1" href="#gallery">Gallery</a>
-        <a class="p-1" href="#about">About</a>
+        <div class="flex flex-wrap justify-center">
+          <a class="p-1" href="#app">Intro</a>
+          <a class="p-1" href="#preview">Preview</a>
+          <a class="p-1" href="#gallery">Gallery</a>
+          <a class="p-1" href="#more">More</a>
+          <a class="p-1" href="#about">About</a>
+        </div>
       </div>
-      <div class="flex flex-col">
+      <div class="flex flex-col min-w-max">
         <span class="font-bold">Made with ❤️ by</span>
         <a
           v-for="developer in developers"
