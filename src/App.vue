@@ -1,4 +1,5 @@
 <template>
+  <NavBar />
   <HeroSection />
   <PreviewSection />
   <GallerySection />
@@ -8,6 +9,7 @@
 </template>
 
 <script>
+import NavBar from './components/NavBar.vue';
 import HeroSection from './components/HeroSection.vue';
 import PreviewSection from './components/PreviewSection.vue';
 import GallerySection from './components/GallerySection.vue';
@@ -18,6 +20,7 @@ import FooterSection from './components/FooterSection.vue';
 export default {
   name: 'App',
   components: {
+    NavBar,
     HeroSection,
     PreviewSection,
     GallerySection,

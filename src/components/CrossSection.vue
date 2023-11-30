@@ -1,20 +1,26 @@
 <template>
   <section id="more" class="grid grid-cols-1 md:grid-cols-2 min-h-screen bg-bg300 p-0">
     <div class="order-0 md:order-none img" id="img1"></div>
-    <div class="m-20 order-1 md:order-none">
-      <h3 class="text-xl font-bold pb-4">x</h3>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    <div class="m-10 md:m-20 pb-10 md:p-0 order-1 md:order-none">
+      <h3 class="text-xl font-bold pb-4">Mit kell tudni a tehetségműhelyről?</h3>
+      <p class="text-justify">
+        A tehetségműhely már 7 éve működik. 2016-ban jött létre Kuklis József és Kovács Ádám tanár urak közreműködésével. Később csatlakozott még a
+        témavezetőkhöz Stencinger Dóra tanárnő, majd Vinnai Zsolt tanár úr és legújabbként Kullai Viktória tanárnő. 2017-ben már indult iskolánkból csapat az
+        FLL (FIRST Lego League) regionális versenyen, Győrben. Ezen a versenyen azóta is részt vesz iskolánk Block Breakers névre hallgató csapata. Azok a
+        csapatok, akik erről a versenyről továbbjutottak, indulhattak a következő fordulóban, mely egészen a nemzetközi, világverseny szintjéig tart. Az utóbbi
+        évben már más versenyeken is megmérettük magunkat. Így a tavalyi évben már volt csapatunk a WRO robotolimpián, illetve a Hajdúböszörményi robot olimpián
+        is. Mindkét versenyen szépen szerepeltek a diákjaink.
       </p>
     </div>
-    <div class="m-20 order-3 md:order-none">
-      <h3 class="text-xl font-bold pb-4">xxx</h3>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    <div class="m-10 md:m-20 pb-10 md:p-0 order-3 md:order-none">
+      <h3 class="text-xl font-bold pb-4">Kik vesznek részt a munkában?</h3>
+      <p class="text-justify">
+        A tehetségműhelyben vegyes dolgoztak és dolgoznak jelenleg is felsős és technikus diákok is. A célja, hogy megalapozzuk a diákok számára a robotikával
+        kapcsolatos alapismereteket, melyeket későbbi tanulmányaik során is alkalmazni tudnak majd. A robotika tehetségműhely tagjai közül sokan folytatták
+        szakirányú tanulmányaikat egyetemen, amit külön nagy sikerként könyvelünk el. Szeretnénk megjeleníteni a weblapon a jelenlegi tagjainkat és a már
+        elballagott, tiszteletbeli tagjainkat. Jelenlegi tagok: Kovács András, Kilácskó Marcell, Manczal Péter, Szikra Károly, Sipos Máté, Élő Renáta, Kiss
+        Bálint Róbert, Kovács Bendegúz Krisztián, Pingitzer Dávid, Somogyi Bence Sándor Tiszteletbeli tagok (akik legalább 4 éven át versenyeztek): Magyar
+        Karolina Írisz, Fördős Gergő, Vecsei Ábel
       </p>
     </div>
     <div class="order-2 md:order-none img" id="img2"></div>
@@ -41,6 +47,6 @@ export default {
   background-repeat: no-repeat;
   background-position: center center;
   min-height: 50vh;
-  min-height: 50dvh;
+  min-height: 50svh;
 }
 </style>

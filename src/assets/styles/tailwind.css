@@ -16,17 +16,22 @@ body {
 }
 
 a {
-  @apply text-blue-500 hover:text-blue-600;
+  /*@apply text-blue-500 hover:text-blue-600;*/
+  @apply text-accent-100 hover:text-accent-200;
+}
+
+.hyperlink {
+  @apply bg-gradient-to-tr text-transparent bg-clip-text hover:bg-gradient-to-bl from-pink-600 to-indigo-500 transition-all hover:text-transparent;
 }
 
 section {
   min-height: 80vh;
-  min-height: 80dvh;
+  min-height: 80svh;
   @apply py-12;
 }
 
 .scroll {
-  @apply bg-bg300 hover:bg-bg200 h-32 w-10 md:w-24 text-3xl hover:text-6xl;
+  @apply bg-bg300 hover:bg-bg200 h-32 w-10 md:w-24 text-3xl hover:text-4xl md:hover:text-6xl;
   transition: font-size 0.3s ease;
 }
 

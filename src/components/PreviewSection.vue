@@ -19,12 +19,17 @@
         >
         </iframe>
       </div>
-      <div class="flex-1">
-        <h3 class="text-xl font-bold pb-4">titleee</h3>
+      <div class="flex flex-1 flex-col gap-10">
+        <h3 class="text-xl font-bold -mb-8">Építjük a Jövő Robotikus Tehetségeit!</h3>
         <p>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+          Üdvözöljük a tehetségműhelyben, ahol fiatal tehetségeink robotikával és technológiával bővítik ismereteiket és szárnyalnak a versenyeken. Fedezze fel,
+          hogyan alakult ki és fejlődött az elmúlt 7 év során, és ismerje meg a csapatunkat, akik már sikeresen képviselték iskolánkat különböző versenyeken!
+        </p>
+        <h3 class="text-xl font-bold -mb-8">Milyen eszközökkel dolgoznak a diákok?</h3>
+        <p>
+          A tehetségműhelynek 7 darab Lego-robot készlete van. Ezek Ev3-as modellek. Nem a legújabbak, még 7 éve kaptuk őket pályázatok, illetve a Mobilis-SMR
+          mentorprogram keretében. Most már lassan időszerű lesz a cseréjük. Egy-egy robot körülbelül 3 évet bír, ilyen mértékű igénybevétel mellett. A mi
+          eszközeink ennek már a dupláját teljesítették.
         </p>
       </div>
     </div>
