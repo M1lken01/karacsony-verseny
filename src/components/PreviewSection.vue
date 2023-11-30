@@ -4,7 +4,7 @@
     <div class="flex flex-1 flex-col md:flex-row gap-10 p-10 md:p-20">
       <div class="flex flex-1 bg-fg500">
         <iframe
-          class="flex-1"
+          class="flex-1 rounded-md shadow-md"
           title="preview"
           frameborder="0"
           allowfullscreen

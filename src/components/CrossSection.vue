@@ -1,6 +1,6 @@
 <template>
   <section id="more" class="grid grid-cols-1 md:grid-cols-2 min-h-screen bg-bg300 p-0">
-    <div class="order-0 md:order-none img" id="img1"></div>
+    <div class="order-0 md:order-none img hover:filter hover:blur-sm transition-all" id="img1"></div>
     <div class="m-10 md:m-20 pb-10 md:p-0 order-1 md:order-none">
       <h3 class="text-xl font-bold pb-4">Mit kell tudni a tehetségműhelyről?</h3>
       <p class="text-justify">
@@ -23,7 +23,7 @@
         Karolina Írisz, Fördős Gergő, Vecsei Ábel
       </p>
     </div>
-    <div class="order-2 md:order-none img" id="img2"></div>
+    <div class="order-2 md:order-none img hover:filter hover:blur-sm transition-all" id="img2"></div>
   </section>
 </template>
 

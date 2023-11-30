@@ -24,6 +24,10 @@ a {
   @apply bg-gradient-to-tr text-transparent bg-clip-text hover:bg-gradient-to-bl from-pink-600 to-indigo-500 transition-all hover:text-transparent;
 }
 
+.nav-link {
+  @apply px-6 py-7 text-fg200 hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-tr from-pink-600 to-indigo-500;
+}
+
 section {
   min-height: 80vh;
   min-height: 80svh;
@@ -37,5 +41,5 @@ section {
 
 button,
 .button {
-  @apply px-4 py-2 text-white bg-blue-500 rounded-sm shadow-md hover:bg-blue-600 hover:text-white focus:outline-none focus:ring;
+  @apply px-4 py-2 text-white bg-blue-500 rounded-sm shadow-md hover:bg-blue-600 hover:text-white focus:outline-none;
 }
