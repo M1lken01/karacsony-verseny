@@ -6,7 +6,7 @@
         <p class="mb-12 text-lg text-fg500">Építjük a Jövő Robotikus Tehetségeit!</p>
         <a
           href="#preview"
-          class="p-5 text-fg200 rounded-sm shadow-md hover:text-fg500 focus:outline-none focus:ring bg-gradient-to-tr from-sky-500 to-indigo-500 hover:from-indigo-500 hover:to-fuchsia-500 transition-all duration-300 ease-in-out"
+          class="p-5 text-fg200 rounded-sm shadow-md hover:text-fg500 focus:outline-none bg-gradient-to-tr from-sky-500 to-indigo-500 hover:from-indigo-500 hover:to-fuchsia-500 transition-all duration-300 ease-in-out"
           >Tovább az Részletekhez
         </a>
         <!--<a href="#about" target="_blank" rel="noopener" class="button">read more</a>-->
