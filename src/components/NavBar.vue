@@ -8,17 +8,33 @@
         Home
       </a>
       <div>
-        <a href="#preview" class="nav-link"> Preview</a>
-        <a href="#gallery" class="nav-link">Gallery</a>
-        <a href="#about" class="nav-link">About</a>
+        <nav-item :id="'preview'" :name="'Preview'" @update-active-link="setActiveLink" />
+        <nav-item :id="'gallery'" :name="'Gallery'" @update-active-link="setActiveLink" />
+        <nav-item :id="'more'" :name="'FAQ'" @update-active-link="setActiveLink" />
+        <nav-item :id="'about'" :name="'About'" @update-active-link="setActiveLink" />
       </div>
     </div>
   </nav>
 </template>
 
 <script>
+import NavItem from '@/components/NavItem.vue';
+
 export default {
   name: 'NavBar',
+  components: {
+    NavItem,
+  },
+  data() {
+    return {
+      activeLink: '',
+    };
+  },
+  methods: {
+    setActiveLink(linkId) {
+      this.activeLink = linkId;
+    },
+  },
 };
 </script>
 

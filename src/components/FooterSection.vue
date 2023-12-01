@@ -11,12 +11,12 @@
           <a class="p-1" href="#about">About</a>
         </div>
       </div>
-      <div class="flex flex-col min-w-max">
+      <div class="flex flex-col min-w-max overflow-hidden">
         <span class="font-bold">Made with ❤️ by</span>
         <a
           v-for="developer in developers"
           :key="developer.id"
-          class="p-1"
+          class="p-1 hover:-skew-x-6"
           :href="developer.link"
           target="_blank"
           @mouseover="toggleHover(developer)"

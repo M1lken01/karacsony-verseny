@@ -28,6 +28,10 @@ a {
   @apply px-6 py-7 text-fg200 hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-tr from-pink-600 to-indigo-500;
 }
 
+.active-link {
+  @apply underline;
+}
+
 section {
   min-height: 80vh;
   min-height: 80svh;
