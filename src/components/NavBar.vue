@@ -1,19 +1,16 @@
 <template>
-  <nav class="flex justify-center sticky top-0 bg-bg500 text-fg200 px-6 z-50">
+  <nav class="flex justify-center sticky -top-1 bg-bg500 text-fg200 px-6 z-50">
     <div class="w-full flex justify-between items-baseline md:items-center">
-      <a
-        href="#app"
-        class="px-6 py-7 text-xl text-fg200 font-bold hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-tr from-pink-600 to-indigo-500"
-      >
+      <a href="#app" class="p-6 text-xl text-fg200 font-bold hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-tr from-pink-600 to-indigo-500">
         Home
       </a>
-      <div class="hidden md:flex space-x-4">
+      <div class="hidden md:flex">
         <nav-item :id="'preview'" :name="'Preview'" />
         <nav-item :id="'gallery'" :name="'Gallery'" />
         <nav-item :id="'more'" :name="'FAQ'" />
         <nav-item :id="'about'" :name="'About'" />
       </div>
-      <div v-if="isMenuOpen" class="md:hidden flex flex-1 flex-col items-end space-y-2">
+      <div v-if="isMenuOpen" class="md:hidden flex flex-1 flex-col items-end">
         <nav-item :id="'preview'" :name="'Preview'" />
         <nav-item :id="'gallery'" :name="'Gallery'" />
         <nav-item :id="'more'" :name="'FAQ'" />
@@ -49,5 +46,6 @@ export default {
 nav {
   background: #111111df;
   backdrop-filter: blur(4px);
+  /*top: -1px*/
 }
 </style>
