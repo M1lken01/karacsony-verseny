@@ -17,11 +17,11 @@
         />
         <AboutSectionItem
           title="Hogyan lehet jelentkezni?"
-          :bulletPoints="[
-            'Jelentkezni a Facebook oldalunkon.',
-            'Személyesen Vinnai Zsolt tanár úrnál.',
-            'Illetve Kullai Viktória tanárnőnél, az iskola tanárijában.',
-          ]"
+          :bulletPoints="
+            JSON.parse(
+              `[&quot;Jelentkezni a <a href=\\&quot;https://www.facebook.com/BlockBreakersBolyai/\\&quot; target=\\&quot;_blank\\&quot; rel=\\&quot;noopener\\&quot;>Facebook oldalunkon</a>.&quot;, &quot;Személyesen Vinnai Zsolt tanár úrnál.&quot;, &quot;Illetve Kullai Viktória tanárnőnél, az iskola tanárijában.&quot;]`,
+            )
+          "
         />
       </div>
     </div>

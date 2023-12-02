@@ -46,6 +46,5 @@ export default {
 nav {
   background: #111111df;
   backdrop-filter: blur(4px);
-  /*top: -1px*/
 }
 </style>

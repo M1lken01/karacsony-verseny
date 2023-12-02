@@ -7,7 +7,7 @@
           <a class="p-1" href="#app">Intro</a>
           <a class="p-1" href="#preview">Preview</a>
           <a class="p-1" href="#gallery">Gallery</a>
-          <a class="p-1" href="#more">More</a>
+          <a class="p-1" href="#more">FAQ</a>
           <a class="p-1" href="#about">About</a>
         </div>
       </div>
