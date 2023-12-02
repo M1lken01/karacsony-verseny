@@ -43,7 +43,6 @@ section {
   transition: font-size 0.3s ease;
 }
 
-button,
 .button {
   @apply px-4 py-2 text-white bg-blue-500 rounded-sm shadow-md hover:bg-blue-600 hover:text-white focus:outline-none;
 }

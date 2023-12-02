@@ -1,5 +1,5 @@
 <template>
-  <section class="flex py-4 px-8 md:p-32 gap-24 md:gap-8 flex-col md:flex-row min-h-screen">
+  <section class="flex -mt-20 py-4 px-8 md:p-32 gap-24 md:gap-8 flex-col md:flex-row justify-center min-h-screen">
     <div class="flex flex-0 md:flex-1 flex-col flex-wrap">
       <div class="text-center md:text-left">
         <h1 class="py-6 text-4xl md:text-6xl font-bold">Tehetségműhely</h1>
