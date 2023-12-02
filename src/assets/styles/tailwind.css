@@ -44,13 +44,13 @@ section {
 }
 
 .cross-img {
-  @apply bg-cover bg-no-repeat bg-center order-2 md:order-none filter brightness-90 hover:brightness-100 transition-all;
+  @apply bg-cover bg-no-repeat bg-center md:order-none filter brightness-90 hover:brightness-100 transition-all;
   min-height: 50vh;
   min-height: 50svh;
 }
 
 .cross-text {
-  @apply m-10 md:m-20 pb-10 md:p-0 order-1 md:order-none;
+  @apply m-10 md:m-20 pb-10 md:p-0 md:order-none;
 }
 
 .button {

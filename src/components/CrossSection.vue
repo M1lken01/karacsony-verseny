@@ -1,7 +1,7 @@
 <template>
   <section id="more" class="grid grid-cols-1 md:grid-cols-2 min-h-screen bg-bg300 p-0">
-    <div class="cross-img" id="img1"></div>
-    <div class="cross-text">
+    <div class="cross-img order-0" id="img1"></div>
+    <div class="cross-text order-1">
       <h3 class="text-xl font-bold pb-4">Mit kell tudni a tehetségműhelyről?</h3>
       <p class="text-justify">
         A tehetségműhely már 7 éve működik. 2016-ban jött létre Kuklis József és Kovács Ádám tanár urak közreműködésével. Később csatlakozott még a
@@ -12,7 +12,7 @@
         is. Mindkét versenyen szépen szerepeltek a diákjaink.
       </p>
     </div>
-    <div class="cross-text">
+    <div class="cross-text order-3">
       <h3 class="text-xl font-bold pb-4">Kik vesznek részt a munkában?</h3>
       <p class="text-justify">
         A tehetségműhelyben vegyes dolgoztak és dolgoznak jelenleg is felsős és technikus diákok is. A célja, hogy megalapozzuk a diákok számára a robotikával
@@ -23,7 +23,7 @@
         Karolina Írisz, Fördős Gergő, Vecsei Ábel
       </p>
     </div>
-    <div class="cross-img" id="img2"></div>
+    <div class="cross-img order-2" id="img2"></div>
   </section>
 </template>
 
