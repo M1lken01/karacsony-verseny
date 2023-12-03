@@ -1,6 +1,6 @@
 <template>
   <section id="gallery" class="flex flex-col">
-    <h2 class="mx-8 mt-8 -mb-8 text-left text-2xl">Gallery</h2>
+    <h2 class="section-title">Gallery</h2>
     <div class="flex flex-1 flex-col justify-center p-0 md:px-12">
       <div class="flex justify-center items-center">
         <button class="scroll" @click="prevImage">&lt;</button>

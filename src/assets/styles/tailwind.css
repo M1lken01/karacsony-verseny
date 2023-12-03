@@ -38,6 +38,10 @@ section {
   @apply py-12;
 }
 
+.section-title {
+  @apply mx-8 mt-8 text-left text-2xl;
+}
+
 .scroll {
   @apply bg-bg300 hover:bg-bg200 h-32 w-10 md:w-24 text-3xl hover:text-4xl md:hover:text-6xl;
   transition: font-size 0.3s ease;

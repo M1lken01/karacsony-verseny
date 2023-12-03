@@ -13,7 +13,7 @@
       </div>
     </div>
     <div class="flex md:block justify-center">
-      <img src="../assets/brand/fll-logo-horizontal.png" alt="Logo Image" class="w-96 max-w-xs md:max-w-3xl" />
+      <img src="@/assets/brand/fll-logo-horizontal.png" alt="Logo Image" class="w-96 max-w-xs md:max-w-3xl" />
       <!-- todo: fix size and wrap-->
     </div>
   </section>

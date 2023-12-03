@@ -1,6 +1,6 @@
 <template>
   <section id="preview" class="flex flex-col min-h-screen gap-10 text-bg200 bg-fg500">
-    <h2 class="mx-8 mt-8 text-left text-2xl">Preview</h2>
+    <h2 class="section-title">Preview</h2>
     <div class="flex flex-1 flex-col md:flex-row gap-10 p-10 md:p-20">
       <div class="flex flex-1 bg-fg500">
         <iframe
