@@ -4,12 +4,7 @@
       <div class="text-center md:text-left">
         <h1 class="py-6 text-4xl md:text-6xl font-bold">Tehetségműhely</h1>
         <p class="mb-12 text-lg text-fg500">Építjük a Jövő Robotikus Tehetségeit!</p>
-        <a
-          href="#preview"
-          class="p-5 text-fg200 rounded-sm shadow-md hover:text-fg500 focus:outline-none bg-gradient-to-tr from-sky-500 to-indigo-500 hover:from-indigo-500 hover:to-fuchsia-500 transition-all duration-300 ease-in-out"
-          >Tovább az Részletekhez
-        </a>
-        <!--<a href="#about" target="_blank" rel="noopener" class="button">read more</a>-->
+        <a href="#preview" class="action-button">Tovább az Részletekhez</a>
       </div>
     </div>
     <div class="flex md:block justify-center">

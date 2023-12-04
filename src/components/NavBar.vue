@@ -4,17 +4,8 @@
       <a href="#app" class="p-6 text-xl text-fg200 font-bold hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-tr from-pink-600 to-indigo-500">
         Home
       </a>
-      <div class="hidden md:flex">
-        <nav-item :id="'preview'" :name="'Preview'" />
-        <nav-item :id="'gallery'" :name="'Gallery'" />
-        <nav-item :id="'more'" :name="'FAQ'" />
-        <nav-item :id="'about'" :name="'About'" />
-      </div>
-      <div v-if="isMenuOpen" class="md:hidden flex flex-1 flex-col items-end">
-        <nav-item :id="'preview'" :name="'Preview'" />
-        <nav-item :id="'gallery'" :name="'Gallery'" />
-        <nav-item :id="'more'" :name="'FAQ'" />
-        <nav-item :id="'about'" :name="'About'" />
+      <div :class="{ 'hidden md:flex': !isMenuOpen, 'md:hidden flex flex-1 flex-col items-end': isMenuOpen }">
+        <nav-item v-for="item in menuItems" :key="item.id" :id="item.id" :name="item.name" />
       </div>
       <button class="md:hidden px-3 py-2" @click="toggleMenu">☰</button>
     </div>
@@ -32,6 +23,13 @@ export default {
   data() {
     return {
       isMenuOpen: false,
+      menuItems: [
+        { id: 'preview', name: 'Preview' },
+        { id: 'gallery', name: 'Gallery' },
+        { id: 'partners', name: 'Partners' },
+        { id: 'more', name: 'FAQ' },
+        { id: 'about', name: 'About' },
+      ],
     };
   },
   methods: {

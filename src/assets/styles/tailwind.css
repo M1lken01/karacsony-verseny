@@ -7,12 +7,12 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
-  @apply text-fg200 bg-bg400;
-}
-
 #app {
   font-family: 'Poppins', sans-serif;
+}
+
+body {
+  @apply text-fg200 bg-bg400;
 }
 
 a {
@@ -42,6 +42,10 @@ section {
   @apply mx-8 mt-8 text-left text-2xl;
 }
 
+.action-button {
+  @apply p-5 text-fg100 rounded-sm shadow-md hover:text-fg500 focus:outline-none bg-gradient-to-tr from-blue-500 to-blue-700 hover:from-blue-700  hover:to-blue-900;
+}
+
 .scroll {
   @apply bg-bg300 hover:bg-bg200 h-32 w-10 md:w-24 text-3xl hover:text-4xl md:hover:text-6xl;
   transition: font-size 0.3s ease;
@@ -55,6 +59,10 @@ section {
 
 .cross-text {
   @apply m-10 md:m-20 pb-10 md:p-0 md:order-none;
+}
+
+.about-item {
+  @apply md:flex-1 min-w-full md:min-w-0 bg-fg300 p-4 md:p-8 rounded-md shadow-md hover:shadow-2xl transition-all;
 }
 
 .button {

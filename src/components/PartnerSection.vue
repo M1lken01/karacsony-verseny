@@ -1,5 +1,5 @@
 <template>
-  <section id="partner" class="flex flex-col text-bg200 bg-fg500">
+  <section id="partners" class="flex flex-col text-bg200 bg-fg500">
     <h2 class="section-title">Partners</h2>
     <p>A tehetségműhely munkáját az utóbbi években támogatta a Mobilis és az SMR is.</p>
     <div class="flex-1 grid grid-cols-2 md:grid-cols-3 mx-2 md:mx-16">
