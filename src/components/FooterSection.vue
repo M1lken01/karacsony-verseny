@@ -7,6 +7,7 @@
           <a class="p-1" href="#app">Intro</a>
           <a class="p-1" href="#preview">Preview</a>
           <a class="p-1" href="#gallery">Gallery</a>
+          <a class="p-1" href="#partners">Partners</a>
           <a class="p-1" href="#more">FAQ</a>
           <a class="p-1" href="#about">About</a>
         </div>
@@ -27,7 +28,7 @@
       </div>
     </div>
     <div class="p-8 px-8 flex justify-between flex-col-reverse gap-8 md:flex-row md:px-24">
-      <div>&copy; 2023 <a href="https://github.com/M1lken01/karacsony-verseny" class="hyperlink">some Bolyai devs</a>. All rights reserved.</div>
+      <div>&copy; 2023 <a href="https://github.com/M1lken01/karacsony-verseny" class="hyperlink">m1lk3n01</a>. All rights reserved.</div>
       <div>
         <a href="https://github.com/M1lken01/karacsony-verseny" class="flex items-center justify-center">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="-2.5 -2.5 21 21" stroke="currentColor" class="h-7 w-7 mr-1">

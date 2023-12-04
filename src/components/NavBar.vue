@@ -1,9 +1,7 @@
 <template>
   <nav class="flex justify-center sticky -top-1 bg-bg500 text-fg200 px-6 z-50">
     <div class="w-full flex justify-between items-baseline md:items-center">
-      <a href="#app" class="p-6 text-xl text-fg200 font-bold hover:text-transparent hover:bg-clip-text hover:bg-gradient-to-tr from-pink-600 to-indigo-500">
-        Home
-      </a>
+      <a href="#app" class="nav-link nav-header">Home</a>
       <div :class="{ 'hidden md:flex': !isMenuOpen, 'md:hidden flex flex-1 flex-col items-end': isMenuOpen }">
         <nav-item v-for="item in menuItems" :key="item.id" :id="item.id" :name="item.name" />
       </div>
