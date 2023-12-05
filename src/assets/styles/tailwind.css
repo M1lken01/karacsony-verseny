@@ -36,6 +36,10 @@ a {
   @apply underline;
 }
 
+.preview-title {
+  @apply text-xl font-bold -mb-8;
+}
+
 section {
   min-height: 80vh;
   min-height: 80svh;
