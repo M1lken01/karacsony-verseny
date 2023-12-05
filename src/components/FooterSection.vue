@@ -4,7 +4,7 @@
       <div class="flex flex-col">
         <span class="font-bold">Navigáció</span>
         <div class="flex flex-wrap justify-center">
-          <a class="p-1" href="#app">Intro</a>
+          <a class="p-1" href="#app">Tehetségműhely</a>
           <a class="p-1" href="#preview">Bemutató</a>
           <a class="p-1" href="#gallery">Galéria</a>
           <a class="p-1" href="#partners">Partnerek</a>
