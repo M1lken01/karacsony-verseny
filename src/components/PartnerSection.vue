@@ -1,6 +1,6 @@
 <template>
   <section id="partners" class="flex flex-col text-bg200 bg-fg500">
-    <h2 class="section-title">Partners</h2>
+    <h2 class="section-title">Partnerek</h2>
     <div class="flex-1 grid grid-cols-2 md:grid-cols-3 mx-8 md:mx-16 gap-2">
       <PartnerItem v-for="partner in partners" :key="partner.id" :imgSrc="partner.imgSrc" :alt="partner.alt" :link="partner.link" />
     </div>
