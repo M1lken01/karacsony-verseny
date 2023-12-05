@@ -5,7 +5,7 @@
       <div :class="{ 'hidden md:flex': !isMenuOpen, 'md:hidden flex flex-1 flex-col items-end': isMenuOpen }">
         <nav-item v-for="item in menuItems" :key="item.id" :id="item.id" :name="item.name" />
       </div>
-      <button class="md:hidden px-3 py-2" @click="toggleMenu">☰</button>
+      <button class="md:hidden px-3 py-2 nav-link" @click="toggleMenu">☰</button>
     </div>
   </nav>
 </template>
